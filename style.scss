@@ -289,9 +289,13 @@ nav {
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  text-align: left;
 }
 
+.footer-right {
+    float: right;
+    padding-left: 10px;
+}
 
 .main-container {
   display: flex;
