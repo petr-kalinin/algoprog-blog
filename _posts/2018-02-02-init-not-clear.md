@@ -98,7 +98,7 @@ for i in range(len(a)):
 for ...
     v = # найти вершину с минимальным расстоянием до нее
     for e in edges[v]:
-        relax(r)
+        relax(e)
 ```
 
 
@@ -108,7 +108,7 @@ for ...
 v = start_vertex
 for ...
     for e in edges[v]:
-        relax(r)
+        relax(e)
     v = # найти вершину с минимальным расстоянием до нее
 ```
     
