@@ -41,3 +41,7 @@ permalink: /about/
 - vk: [vk.com/petr.kalinin](//vk.com/petr.kalinin)
 - Телефон: [+7(910)794-32-07](tel:+79107943207)
 - Телеграм: [+7(910)794-32-07 (pkalinin)](https://t.me/pkalinin)
+
+### Лицензия
+
+Посты в этом блоге распространяются по лицензии CC-BY-SA ([подробнее](/license)).
