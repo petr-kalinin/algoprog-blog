@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ["$","$"] ], displayMath: [ ["$$","$$"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"] } }); </script>
 
     {% include vk-head.html %}
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -44,7 +46,7 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          <a href="//blog.algoprog.ru">blog.algoprog.ru</a> © Петр Калинин, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>, <a href="//github.com/petr-kalinin/algoprog-blog">github.com/petr-kalinin/algoprog-blog</a>
+          <a href="//blog.algoprog.ru">blog.algoprog.ru</a> © Петр Калинин, <a href="/license">лицензия CC-BY-SA</a>, <a href="//github.com/petr-kalinin/algoprog-blog">github.com/petr-kalinin/algoprog-blog</a>
           |&nbsp;<a href="//algoprog.ru">algoprog.ru</a>
           <span class="footer-right">
             <a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
